@@ -7,6 +7,6 @@ import homework
     '101-06cd4b23-ad63-460d-b4cd-4211f8b5c564',
     '5000-556bab5c-ea17-42e0-b0a3-d21fcabb7ad4'
 ])
-def test_obten_probabilidad(test_input, expected):
+def test_obten_probabilidad(test_input):
     with pytest.raises(ValueError):
         homework.obten_probabilidad(test_input)
