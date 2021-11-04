@@ -4,7 +4,7 @@ import homework
 
 @pytest.mark.parametrize('test_input, expected',[
     ('Juan', 'Hola Juan.'),
-    ('Alexs', 'Hola Alexis.'),
+    ('Alexis', 'Hola Alexis.'),
     ('Paola', 'Hola Paola.')
 ])
 def test_saludo_nombre(test_input, expected):
